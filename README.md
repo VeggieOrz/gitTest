@@ -23,6 +23,9 @@ $git rm <filename>
 **4.add file to the cache**
 ```
 $git add <filename>
+
+# add all changes to the cache, include deleting files.
+$git add .
 ```
 
 **5.commit files from cache to repository, -m is meaned the information**
