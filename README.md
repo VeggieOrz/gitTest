@@ -2,7 +2,7 @@
 This Project is created for testing git command, and there are some git operatioins uesed daily.
 
 
-## Command for local operatation
+## Command for local operation
 **1.show the status of files in workplce and cache**
 ```
 git status
