@@ -1,8 +1,8 @@
 # gitTest
-This Project is created for testing git command, and there are some git operatioins uesed daily.
+This Project is created for testing git instructions, and there are some git instructions uesed daily.
 
 
-## Command for local operation
+## Instruction for local operation
 **1.show the status of files in workplce and cache**
 ```
 git status
@@ -35,15 +35,33 @@ git add .
 git commit -m 'some information'
 ```
 
-**6.show history**
+**6.show the submission history**
 ```
 git log
+# if you want to reduce output information
+git log --pretty=online
 ```
 
-## Command for github operation
+**7.show the instruction history**
+```
+git reflog
+```
+
+**8.version rollback**
+```
+# "HEAD" mean the current version, '^' mean back to the last version
+git reset --hard HEAD^
+
+# back to a previous version(you should know the commit id)
+git reset --hard commit_id
+```
+
+## Instruction for github operation
 
 **1.clone the project from github**
 ```
 # which will initialize a git repository in local dictionary
 git clone https://github.com/Username/ProjectName.git
 ```
+## Instruction for Linux
+
