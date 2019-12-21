@@ -46,7 +46,7 @@ git add .
 git commit -m 'some information'
 ```
 
-###7.show the submission history
+### 7.show the submission history
 ```
 git log
 ```
