@@ -56,7 +56,7 @@ git log --pretty=online
 ```
 Show changs over time for a specific file
 ```
-git log -p
+git log -p <file>
 ```
 
 ### 8.show the instruction history
