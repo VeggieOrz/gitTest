@@ -4,12 +4,12 @@ This Project is created for testing git instructions, and there are some git ins
 
 ## Instruction for local operation
 ### 1.initialize git repository
-initialize the current directory as a git repository
+Initialize the current directory as a git repository
 ```
 git init
 ```
 
-### 2.show the status of files in workplce and cache
+### 2.show the status of files in workplce and stage
 ```
 git status
 ```
@@ -20,27 +20,27 @@ git diff
 ```
 
 ### 4.remove file
-
-remove from cache and workplace.(file was added to cache)
+Remove from stage and workplace.(file was added to stage)
 ```
 git rm -f <filename>
 ```
-remove from workplece, but stil need to commit changes.(file was commited to cache)
+Remove from workplece, but stil need to commit changes.(file was commited to stage)
 ```
 git rm <filename>
 ```
 
-### 5.add file to the cache
+### 5.add file to the stage
+Add some changes in <file> to the stage.
 ```
-git add <filename>
+git add <file>
 ```
 
-add all changes to the cache, include deleting files.
+Add all currrent changes to the stage, include deleting files.
 ```
 git add .
 ```
 
-### 6.commit files from cache to repository
+### 6.commit files from stage to repository
 -m is meaned the information, the information should not be empty, it's better to descript what changed.
 ```
 git commit -m 'some information'
@@ -53,6 +53,10 @@ git log
 if you want to reduce output information
 ```
 git log --pretty=online
+```
+Show changs over time for a specific file
+```
+git log -p
 ```
 
 ### 8.show the instruction history
