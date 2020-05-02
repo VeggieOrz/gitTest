@@ -82,5 +82,15 @@ it will initialize a git repository in local directory, so we don't need to uset
 ```
 git clone https://github.com/Username/ProjectName.git
 ```
+
+### 2.pull lastest version from orgin repository
+```
+git pull orgin master
+```
+sometimes, it shows `fatal: refusing to merge unrelated histories`, we can add the command `--allow-unrelated-histories` behind.
+```
+git pull orgin master --allow-unrelated-histories
+```
+
 ## Command for Linux
 
